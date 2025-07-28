@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, 
+    rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: contain;
+    height: 109vh;
+    background-color: black;
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 5px;
+    float: left;
+    padding-top: 20px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    padding-left: 20px;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin-top: 9%;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+.content img{
+    width: 500px;
+    left: 730px;
+    position: absolute;
+    top: 10px;
+}
+img{
+    width: 100%;
+    background-size: contain;
+}
+.image{
+    display: flex;
+    margin: 10px;
+}
+.img{
+    display: flex;
+    margin: 10px;
+}
+.heading{
+    margin: 10px;
+    font-family: Arial;
+    font-size: 50px;
+    color: #ff7200;
+    top: 20px;
+    padding-left: 15px;
+}
+.image h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff7200;
+}
+.image p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.img h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff7200;
+}
+.img p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.form{
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, 
+    rgba(0,0,0,0.5)50%);
+    top: 10px;
+    bottom: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 10px;
+    left: 400px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+}
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 40px;
+    color: black;
+    opacity: 1px;
+}
+/*Hover Effect on social media icons*/
+.socialicons a:hover{
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+.socialicons a:hover i{
+    background-color: #ff7200;
+    transition: 0.4s ease-in-out;
+}
+.footerbottom{
+    color: white;
+    justify-content: center;
+}
+.designer{
+    opacity: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 2px;
+}
